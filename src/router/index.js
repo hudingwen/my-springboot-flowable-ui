@@ -9,7 +9,7 @@ Vue.use(Router)
 export const staticRoutes = [
   {
     path: '/',
-    component: () => import('@/views/flow/process'),  //引入vue页面
+    component: () => import('@/views/map/chengdu'),  //引入vue页面
     // component: () => import('@/components/HelloWorld'),  //引入vue页面
     meta: {
       title: '首页'
